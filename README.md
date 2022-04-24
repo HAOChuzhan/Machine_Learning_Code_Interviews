@@ -69,4 +69,4 @@ In this repo, I use Python to write common machine learning algorithms in interv
 
       （6）继续问：文本分类中的fastText、TextCNN这类方法你了解吗？答：之前使用过，但是太久没接触忘记具体原理了。。。最后就让我反问了。
 
-         **Time：1h20min ** 还是挺长时间的。
+      **Time：1h20min**

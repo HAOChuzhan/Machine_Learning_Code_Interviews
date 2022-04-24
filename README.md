@@ -1,7 +1,7 @@
 # Machine_learning_code_interviews
 In this repo, I use Python to write common machine learning algorithms in interviews. The following is a record of some interview related common knowledge.
 
-[Langboat](1.Langboat) | [Didi Tech](2.Didi Tech) | [JD Tech](3.JD Tech) | [Meituan](5.Meituan)
+[Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [Meituan](#5)
 
 ------
 

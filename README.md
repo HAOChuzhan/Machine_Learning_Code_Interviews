@@ -3,20 +3,22 @@ In this repo, I use Python to write common machine learning algorithms in interv
 
 [Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [NIO](#4) | [Meituan](#5)
 
-1. <span id="1">[Langboat](https://langboat.com/techs/search) — Two interviews  </span>  :smile: 
+---
 
+1. <span id="1">[Langboat](https://langboat.com/techs/search) — Two interviews  </span>  ​ :smile: 
    1. 主要有预训练（[孟子](https://github.com/Langboat/Mengzi)）、搜索、文本生成三个团队
    2. 流程：主要是两轮面试
       1. 一面：主要就是围绕着简历的论文展开
       2. 二面：类似于一面（忘记记录具体面试内容了总体来说把简历上的细节熟悉清楚，这类创业公司面试相对简单）
 
 2. <span id="2">Didi Tech —Algorithm Engineer  </span> :smile:
-
    1. 滴滴出行的安全策略团队：主要是处理出行期间记录的音频视频多模态信息来判断出行风险
 
    2. 流程：进行了一面，我可能的入职时间太晚第二面就没有进行暂时先保持联系
 
-      1. 一面：由于我之前的实习与滴滴的业务还是比较相关的，于是重点在实习经历上，由于我用到了相关的机器学习的模型，面试官问了些具体的业务实现之后，再从LR和Xgboost出发。
+      ​	**一面：**
+
+      1. 由于我之前的实习与滴滴的业务还是比较相关的，于是重点在实习经历上，由于我用到了相关的机器学习的模型，面试官问了些具体的业务实现之后，再从LR和Xgboost出发。
 
          （1）我们one-hot编码的特征过于稀疏如何解决？会影响最后的模型效果嘛？  
 
@@ -31,11 +33,10 @@ In this repo, I use Python to write common machine learning algorithms in interv
          （6）接下来就是我详细讲了论文内容，和面试官沟通。  
 
          （7）手写算法题：连续最长子序列-dp来做就行
-         
+
             **time：70-80min**
 
-3. <span id="3">JD Tech —Algorithm Engineer</span>
-
+3. <span id="3">JD Tech —Algorithm Engineer</span>   &#x1f602;
    1. 主要是用户增长和营销算法
    2. 主要也是讲实习的经历，在其中问了一些（1）Bert、transformer的结构和一些功能。（2）LSTM模型为什么可以解决长距离依赖和梯度消失和梯度爆炸。[LSTM如何解决梯度消失或爆炸的?](https://www.cnblogs.com/bonelee/p/10475453.html)（3）还有一些细枝末节的有些忘了。。。感觉这个面试氛围十分轻松
 

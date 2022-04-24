@@ -1,18 +1,16 @@
 # Machine_learning_code_interviews
 In this repo, I use Python to write common machine learning algorithms in interviews. The following is a record of some interview related common knowledge.
 
-[Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [Meituan](#5)
+[Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [NIO](#4) | [Meituan](#5)
 
-------
-
-1. [Langboat](https://langboat.com/techs/search) — Two interviews    :smile:
+1. <span id="1">[Langboat](https://langboat.com/techs/search) — Two interviews  </span>  :smile: 
 
    1. 主要有预训练（[孟子](https://github.com/Langboat/Mengzi)）、搜索、文本生成三个团队
    2. 流程：主要是两轮面试
       1. 一面：主要就是围绕着简历的论文展开
       2. 二面：类似于一面（忘记记录具体面试内容了总体来说把简历上的细节熟悉清楚，这类创业公司面试相对简单）
 
-2. Didi Tech —Algorithm Engineer    :smile:
+2. <span id="2">Didi Tech —Algorithm Engineer  </span> :smile:
 
    1. 滴滴出行的安全策略团队：主要是处理出行期间记录的音频视频多模态信息来判断出行风险
 
@@ -36,16 +34,16 @@ In this repo, I use Python to write common machine learning algorithms in interv
          
             **time：70-80min**
 
-3. JD Tech —Algorithm Engineer
+3. <span id="3">JD Tech —Algorithm Engineer</span>
 
    1. 主要是用户增长和营销算法
    2. 主要也是讲实习的经历，在其中问了一些（1）Bert、transformer的结构和一些功能。（2）LSTM模型为什么可以解决长距离依赖和梯度消失和梯度爆炸。[LSTM如何解决梯度消失或爆炸的?](https://www.cnblogs.com/bonelee/p/10475453.html)（3）还有一些细枝末节的有些忘了。。。感觉这个面试氛围十分轻松
 
-4. NIO — One interview    :expressionless:
+4. <span id="4">NIO — One interview   </span>  :expressionless:
 
    感觉面试官就是走流程一样，让我自己自我介绍完了之后按照简历挨个介绍实习和论文工作；最后让我反问，他跟我讲解了下他们的业务，主要是做车机上的对话查询，文本信息主要是车机手册，可以利用做阅读理解或者是依托于知识图谱来做问答查询。最后估计面试只持续了**30-40min**就结束了，感觉十分像KPI面。Base：Beijing or Shanghai
 
-5. Meituan —NLP Algorithm Engineer 2022年4月24日
+5. <span id="5">Meituan —NLP Algorithm Engineer 2022年4月24日</span>  ​ :smile:
 
    1. 主要是智能风控团队：做网络舆情、客户投诉等相关对话文本信息的检测。
 

@@ -1,7 +1,19 @@
 # Machine_learning_code_interviews
 In this repo, I use Python to write common machine learning algorithms in interviews. The following is a record of some interview related common knowledge.
 
-[Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [NIO](#4) | [Meituan](#5)
+```mermaid
+gantt
+    title work plan
+    dateFormat  YYYY-MM-DD
+    section intern
+    seeking an intern :a1, 2022-03-01, 75d
+    #Another task     :after a1  , 20d
+    #section Another
+    #Task in sec      :2022-01-12  , 12d
+    #another task      : 24d
+```
+
+ [Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [NIO](#4) | [Meituan](#5)
 
 ---
 
@@ -84,4 +96,8 @@ In this repo, I use Python to write common machine learning algorithms in interv
          （6）继续问：文本分类中的[fastText](https://zhuanlan.zhihu.com/p/32965521)、[TextCNN](https://zhuanlan.zhihu.com/p/77634533)这类方法你了解吗？答：之前使用过，但是太久没接触忘记具体原理了。。。最后就让我反问了。
 
             **Time：1h20min** | **Base：Beijing or Shanghai**
+
+
+
+---
 

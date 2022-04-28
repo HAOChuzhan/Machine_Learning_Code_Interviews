@@ -13,7 +13,7 @@ gantt
     #another task      : 24d
 ```
 
- [Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [NIO](#4) | [Meituan](#5)
+ [Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [NIO](#4) | [Meituan](#5) | [Haikang](#6)
 
 ---
 
@@ -78,7 +78,9 @@ gantt
       ​	**一面：**
 
       1. 上来先手撕两道算法题：（1）之字形打印二叉树；（2）在二维矩阵中搜索target；这两道题都是算比较简单的，他会问下有没有什么优化的点；
+      
       2. 接下来估计是看都A了，然后又让我口述一道 "从多个升序数组中找出第k小的数" ，我大致讲了下使用优先队列的做法，然后他就问了下**堆的基本原理**是怎么实现的。—感觉还可以去查查其他的优化方法
+
       3. 然后开始围绕论文中的工作问答：
 
          （1）主要问了其中关系分类中，各关系标签的数量分布，如何解决其中的比例较少的关系的分类问题（感觉有些类似标签分布的长尾效应）；然后问了下知识图谱构建方面的我简要说明了一下；然后问我除了文章中这一类方法，做复杂多跳问答还有哪些方法？
@@ -94,8 +96,48 @@ gantt
          （5）继续问：除了bert之外还了解哪些预训练语言模型；答：我又进一步解释了Roberta的原理；再问：除了这些之外呢。答：XLNet、ERNIE等等（忘记说GPT了），但不是特别了解具体的内部结构；
 
          （6）继续问：文本分类中的[fastText](https://zhuanlan.zhihu.com/p/32965521)、[TextCNN](https://zhuanlan.zhihu.com/p/77634533)这类方法你了解吗？答：之前使用过，但是太久没接触忘记具体原理了。。。最后就让我反问了。
-
+      
             **Time：1h20min** | **Base：Beijing or Shanghai**
+   
+8. <span id="6">Haikang—Ai Algorithm Engineer 2022年4月27日</span>:smile:
+
+   1. 主要是AI研究型实习生，主要是研究GNN在ogb任务上的应用；
+
+   2. 流程：也是提前打电话大致聊了下主要的工作内容，询问了我的意向。
+
+      ​	**一面：**
+
+      1. 先是做了简单的自我介绍，然后从实习经历和论文内容讲起，最后是讲了我最近做的有关GNN的内容以及对GNN系列模型的原理理解。
+
+      2. 在做特征过程中的数据的如何处理的？one-hot和数据分桶具体是怎么实现？ont-hot的降维方法。我的一些理解：（1）基于树的模型是不需要进行特征归一化，例如随机森林、bagging、boosting等方法，基于参数或者距离的模型是需要特征归一化。（2）tree model是不需要ont-hot编码的，其实树模型在动态的过程中生成了类似ont-hot+feature crossing的机制；决策树中是没有特征大小的概念，只有特征分布于那一部分的概念。
+
+      3. GNN的原理推导以及相关的其他GNN模型，如果出现图的节点达到亿级别，我们该如何优化？
+
+      4. 最后的算法题目：两个数字组成的字符串，实现两个字符串相乘。
+
+         <details><summary>字符串相乘题解</summary>
+         <pre><code>string multiply(string nums1, string nums2) {
+             string res = "";
+             int m = nums1.length();
+             int n = nums2.length();
+             if (nums1=="0" || nums2=="0") return "0";
+             vector<int> vals(m+n, 0);
+             for (int i=m-1; i>=0; i--) {
+                 for (int j=n-1; j>=0; j--) {
+                     int mul = (nums1[i]-'0')*(nums2[j]-'0');
+                     int p1 = i+j, p2=i+j+1, sum = mul+vals[p2];
+                     vals[p1] += sum/10;
+                     vals[p2] = sum%10;   
+                 }
+             }
+             for (int i:vals) {
+                 if (!res.empty() || i!=0) res.push_back(i+'0');
+             }
+             return res;
+         }
+         </code></pre></details>
+
+​						**Time：1h20min** | **Base：Hangzhou**
 
 
 

@@ -13,7 +13,7 @@ gantt
     #another task      : 24d
 ```
 
- [Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [NIO](#4) | [Meituan](#5) | [Haikang](#6)
+ [Langboat](#1) | [Didi Tech](#2) | [JD Tech](#3) | [NIO](#4) | [Meituan](#5) | [Hikvision](#6)
 
 ---
 
@@ -27,7 +27,7 @@ gantt
       
          **Time：均为1h** | **Base：Beijing**
    
-2. <span id="2">Didi Tech —Algorithm Engineer</span>:smile:
+2. <span id="2">Didi Tech — Algorithm Engineer</span>:smile:
    
 1. 滴滴出行的安全策略团队：主要是处理出行期间记录的音频视频多模态信息来判断出行风险
    
@@ -53,7 +53,7 @@ gantt
    
          **Time：1h15min** | **Base：Beijing**
    
-3. <span id="3">JD Tech —Algorithm Engineer</span>&#x1f602;
+3. <span id="3">JD Tech — Algorithm Engineer</span>&#x1f602;
    
    1. 主要是用户增长和营销算法团队
    
@@ -69,7 +69,7 @@ gantt
 
       **Time：30-40min** | **Base：Beijing or Shanghai**
 
-5. <span id="5">Meituan —NLP Algorithm Engineer 2022年4月24日</span>:smile:
+5. <span id="5">Meituan — NLP Algorithm Engineer 2022年4月24日</span>:smile:
 
    1. 主要是智能风控团队：做网络舆情、客户投诉等相关对话文本信息的检测。
 
@@ -99,7 +99,7 @@ gantt
       
             **Time：1h20min** | **Base：Beijing or Shanghai**
    
-8. <span id="6">Haikang—Ai Algorithm Engineer 2022年4月27日</span>:smile:
+8. Hikvision — Ai Algorithm Engineer 2022年4月27日</span>:smile:
 
    1. 主要是AI研究型实习生，主要是研究GNN在ogb任务上的应用；
 
@@ -133,13 +133,10 @@ gantt
              for (int i:vals) {
                  if (!res.empty() || i!=0) res.push_back(i+'0');
              }
-             return res;
+            return res;
          }
          </code></pre></details>
-
-​						**Time：1h20min** | **Base：Hangzhou**
-
-
+         **Time：1h20min** | **Base：Hangzhou**
 
 ---
 
